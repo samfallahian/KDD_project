@@ -96,7 +96,7 @@ Therefore, the following research questions are proposed:
 * Python
 * jupyter
 
-# Needs of this project Based on CRISP
+### Needs of this project Based on CRISP
 - Business understanding – What does the business need?
 - Data understanding – What data do we have / need? Is it clean?
 - Data preparation – How do we organize the data for modeling?
