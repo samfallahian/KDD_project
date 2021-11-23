@@ -81,7 +81,7 @@ The goal of this research is developing an accident prediction models based on s
 features such as time, location, whether condition and infrastructure(traffic lights, road,...).
 
 Therefore, the following research questions are proposed:
-* How do different conditions affect accident’s probability?
+* How do different conditions affect accident’s severity probability?
 * How does the relative risk of different intersection maneuvers vary with driver age and gender?
 * How much does predictive modeling reduce the occurrence of the accidents?
 
@@ -107,12 +107,8 @@ Therefore, the following research questions are proposed:
 ## Getting Started
 
 1. Clone this repo.
-2. Raw Data is being kept [here](https://www.kaggle.com/sobhanmoosavi/us-accidents).
-
-## Team Members
-
-**Team Lead: Dr. Laurel Powell**  
-**Team developer: M.A. Fallahian**
+2. Download the Raw Data [here](https://www.kaggle.com/sobhanmoosavi/us-accidents) and put it into data folder.
+3. Install requirements by: `pip install -r requirements.txt`
 
 
 ## Future Work

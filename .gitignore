@@ -129,8 +129,13 @@ dmypy.json
 .pyre/
 .idea
 idea/
-data
 
 raw
 
 note.txt
+
+models
+main.py
+
+data/US_Accidents_Dec20_updated.csv
+data/other/
