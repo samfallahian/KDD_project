@@ -82,7 +82,7 @@ features such as time, location, whether condition and infrastructure(traffic li
 
 Therefore, the following research questions are proposed:
 * How do different conditions affect accident’s severity probability?
-* How does the relative risk of different intersection maneuvers vary with driver age and gender?
+* How does the relative risk of different severity vary with infrastructure?
 * How much does predictive modeling reduce the occurrence of the accidents?
 
 ## Technologies & Process
