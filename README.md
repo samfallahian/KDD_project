@@ -102,13 +102,48 @@ Therefore, the following research questions are proposed:
 - Data preparation – How do we organize the data for modeling?
 - Modeling – What modeling techniques should we apply?
 - Evaluation – Which model best meets the business objectives?
-- Deployment – How do stakeholders access the results?
+- Deployment – How do stakeholders access the results?  
+
+### Code Parts
+- Date Preprocessing, Understanding.
+  - Load and browsing data.
+  - Data Description.
+- Data Cleaning
+  - Drop useless features.
+  - Filling missing value based on feature structure.
+  - Drop the rest of missing value.
+- Data Exploration
+  - Data balancing and distribution.
+  - Weather Condition Analysis.
+  - Time Analysis.
+  - Infrastructure Analysis.
+  - Geographical Analysis.
+- Feature Engineering
+  - Handling Categorical features.
+  - Features Correlation.
+- Data Preparation for Modeling
+  - Turning target values (Severity) to binary class.
+  - Splitting train and test set.
+  - Using under-sampling technique to deal with imbalanced data.
+- Modeling
+  - Compare different algorithm and select best model.
+  - Tuning the model.
+- Evaluating
+  - Confusion Matrix.
+  - ROC Curve and AUC Scores.
+  - Classification Report.
+- Feature Importance
+  - Finding feature importance based on built-in, permutation and Shap methods.
+
 
 ## Getting Started
 
 1. Clone this repo.
 2. Download the Raw Data [here](https://www.kaggle.com/sobhanmoosavi/us-accidents) and put it into data folder.
 3. Install requirements by: `pip install -r requirements.txt`
+
+## Conclusion
+
 
 
 ## Future Work
