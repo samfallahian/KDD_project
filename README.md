@@ -133,17 +133,29 @@ Therefore, the following research questions are proposed:
   - ROC Curve and AUC Scores.
   - Classification Report.
 - Feature Importance
-  - Finding feature importance based on built-in, permutation and Shap methods.
+  - Finding feature importance based on built-in and permutation methods.
 
+## Summary
+To wrap up and what I have done on this project, I can mention the following items:
+- Unique Value Count: To see how many unique values are there in categorical features. This gives an idea of what is the data about.
+- Frequency Count: It is finding how frequent individual values occur in a feature.
+- Histogram: It gives information on the range of values in which most of the values fall. It also gives information on whether there is any skew in data.
+- Correlation: It is important to discover and quantify the degree to which variables in your dataset are dependent upon each other.
+- Outliers: Outlier values in numeric columns can be obtained by various techniques such as standard deviation analysis, or algorithms such as Isolation forest. An outlier overview analysis gives overview of outliers in all numeric columns.
+- Missing value: There are three common methods to treat missing values: deletion, imputation and prediction. In this project I used deletion and imputation.
+- Imbalanced Dataset: Imbalanced datasets are those where there is a severe skew in the class distribution, this bias in the 
+training dataset can influence many machine learning algorithms, leading some to ignore the minority class entirely. 
+This is a problem as it is typically the minority class on which predictions are most important. in this project we used 
+random undersampling for imbalanced classification. Random undersampling involves randomly selecting examples from the 
+majority class to delete from the training dataset.  This has the effect of reducing the number of examples in the 
+majority class in the transformed version of the training dataset.
+- Evaluating: For this part I used Confusion Matrix, ROC Curve and AUC Scores and Classification Report.
 
 ## Getting Started
 
 1. Clone this repo.
 2. Download the Raw Data [here](https://www.kaggle.com/sobhanmoosavi/us-accidents) and put it into data folder.
 3. Install requirements by: `pip install -r requirements.txt`
-
-## Conclusion
-
 
 
 ## Future Work
