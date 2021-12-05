@@ -77,7 +77,7 @@ The data is provided in a CSV file. Following table describes the data attribute
 |Astronomical_Twilight| Shows the period of day (i.e. day or night) based on astronomical twilight. |
 
 ### Research Questions
-The goal of this research is developing an accident prediction models based on scope of the dataset. Prediction could be created by 
+The goal of this research is developing a models to predict the severity of accidents based on scope of the dataset. Prediction could be created by 
 features such as time, location, whether condition and infrastructure(traffic lights, road,...).
 
 Therefore, the following research questions are proposed:
