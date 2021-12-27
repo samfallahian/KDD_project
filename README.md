@@ -156,7 +156,3 @@ majority class in the transformed version of the training dataset.
 1. Clone this repo.
 2. Download the Raw Data [here](https://www.kaggle.com/sobhanmoosavi/us-accidents) and put it into data folder.
 3. Install requirements by: `pip install -r requirements.txt`
-
-
-## Future Work
-Developing a real-time Data-Driven model to predict and make a real-time feedback to drivers to avoid accidents.
